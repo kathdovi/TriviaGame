@@ -36,3 +36,7 @@ body {
 .restartbutton {
     padding-bottom: 10px;
 }
+
+.answer {
+    cursor: pointer;
+}
