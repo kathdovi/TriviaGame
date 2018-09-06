@@ -132,6 +132,6 @@ function endGame() {
     $(".question").html("<h2> Game over! </h2>");
     $(".answer").empty();
     $(".answer1").text("Answers Correct: " + answersCorrect);
-    $(".answer2").text("Percentage Correct: " + answersCorrect + "0%");
+    $(".answer2").text("Percentage Correct: " + answersCorrect * 10 + "%");
     $(".restartbutton").html('<button type="button" class="resetbtn rounded btn-lg" >Play Again</button>');
 }
