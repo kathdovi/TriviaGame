@@ -1,7 +1,26 @@
+body {
+    background-image: url("../images/sakura.png");
+}
+
 .header {
     text-align: center;
     background-color: aliceblue;
     font-size: 30px;
     height: 70px;
     padding-top: 10px;
+}
+
+.col-12 {
+    margin-top: 100px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.timeremaining {
+    padding-bottom: 10px;
+}
+
+.question {
+    padding-bottom: 10px;
 }
