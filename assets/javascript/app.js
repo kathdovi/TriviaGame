@@ -82,7 +82,12 @@ function startGame() {
     displayGameText();
 };
 
-startGame();
+function firstScreen() {
+    $(".timeremaining").empty();
+    $(".question").html("<h2> Welcome! </h2>");
+    $(".answer").empty()
+    $(".restartbutton").html('<button type="button" class="resetbtn rounded btn-lg" >Click to Play!</button>');
+};
 
 // For every round:
 function displayGameText() {
@@ -135,3 +140,5 @@ function endGame() {
     $(".answer2").text("Percentage Correct: " + answersCorrect * 10 + "%");
     $(".restartbutton").html('<button type="button" class="resetbtn rounded btn-lg" >Play Again</button>');
 }
+
+firstScreen();
