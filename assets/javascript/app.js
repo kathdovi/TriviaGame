@@ -95,7 +95,7 @@ function firstScreen() {
     $(".timeremaining").empty();
     $(".question").html("<h2> Welcome! </h2>");
     $(".answer").empty()
-    $(".restartbutton").html('<button type="button" class="resetbtn rounded btn-lg" >Click to Play!</button>');
+    $(".restartbutton").html('<button type="button" class="resetbtn rounded btn-lg" >Click to Play</button>');
 };
 
 // For every round:
